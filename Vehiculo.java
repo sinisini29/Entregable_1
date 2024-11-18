@@ -14,9 +14,7 @@ public abstract class Vehiculo{
     public String getModelo(){return modelo;}
     public double getPrecio(){return precio;}
 
-    public String getTipo(){
+    public abstract String getTipo(){
         return "Carro";
-
     }
-
 }
